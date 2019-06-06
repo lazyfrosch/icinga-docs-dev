@@ -1,0 +1,10 @@
+---
+site_name: 'Icingabeat'
+source_dir: '/var/www/docs/source'
+site_dir: '/var/www/docs/html'
+project:
+  git: 'https://github.com/Icinga/icingabeat.git'
+  ref: 'master'
+  target: 'icingabeat'
+  docs_dir: 'docs'
+  latest: true

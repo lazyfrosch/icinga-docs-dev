@@ -1,0 +1,17 @@
+---
+site_name: 'Reporting'
+source_dir: '/var/www/docs/source'
+site_dir: '/var/www/docs/html'
+project:
+  git: 'https://github.com/Icinga/icingaweb2-module-reporting.git'
+  ref: 'master'
+  target: 'reporting'
+  docs_dir: 'doc'
+  latest: true
+  subcategories:
+    Modules:
+      IDO Reports:
+        git: 'https://github.com/Icinga/icingaweb2-module-idoreports.git'
+        ref: 'master'
+        target: 'idoreports'
+        docs_dir: 'idoreports/doc'

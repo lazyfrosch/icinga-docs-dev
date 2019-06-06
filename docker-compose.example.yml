@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  docs:
+    image: icinga/docs
+    build: .
+    ports:
+      - 8000:8000
+    volumes:
+      - data:/var/www/docs
+
+volumes:
+  data:

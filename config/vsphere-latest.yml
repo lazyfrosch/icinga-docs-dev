@@ -1,0 +1,10 @@
+---
+site_name: 'Icinga for vSphere'
+source_dir: '/var/www/docs/source'
+site_dir: '/var/www/docs/html'
+project:
+  git: 'https://github.com/Icinga/icingaweb2-module-vspheredb.git'
+  ref: 'master'
+  target: 'vsphere'
+  docs_dir: 'doc'
+  latest: true

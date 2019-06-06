@@ -1,0 +1,10 @@
+---
+site_name: 'Icinga X.509 Module'
+source_dir: '/var/www/docs/source'
+site_dir: '/var/www/docs/html'
+project:
+  git: 'https://github.com/Icinga/icingaweb2-module-x509.git'
+  ref: 'master'
+  target: 'x509'
+  docs_dir: 'doc'
+  latest: true

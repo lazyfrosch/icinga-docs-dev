@@ -1,0 +1,10 @@
+---
+site_name: 'Graphite Module'
+source_dir: '/var/www/docs/source'
+site_dir: '/var/www/docs/html'
+project:
+  git: 'https://github.com/Icinga/icingaweb2-module-graphite.git'
+  ref: 'master'
+  target: 'graphite'
+  docs_dir: 'doc'
+  latest: true
